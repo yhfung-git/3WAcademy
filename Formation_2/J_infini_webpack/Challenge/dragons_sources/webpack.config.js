@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = (env) => {
-    
+
   return {
     mode: env.NODE_ENV ?? "development",
     // watch : true,
