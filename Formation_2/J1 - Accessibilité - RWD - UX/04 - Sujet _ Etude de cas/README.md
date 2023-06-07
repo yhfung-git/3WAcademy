@@ -1,1 +1,0 @@
-Ouvrir simplement le fichier `./www/index.html` dans un navigateur Web.
