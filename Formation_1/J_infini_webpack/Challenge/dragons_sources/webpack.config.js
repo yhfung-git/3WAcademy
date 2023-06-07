@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = (env) => {
-    
+
   return {
     mode: env.NODE_ENV ?? "development",
     // watch : true,
@@ -14,10 +14,12 @@ module.exports = (env) => {
     devtool : 'source-map',
     // Configuration de webpack-dev-server minimale
     devServer: {
-      contentBase: path.join(__dirname, "dist"),
+      static: {
+        directory: path.join(__dirname, 'dist'),
+      },
+      compress: true,
       port: 9000,
       open: true,
-      hot: true,
     },
     module: {
       rules: [
