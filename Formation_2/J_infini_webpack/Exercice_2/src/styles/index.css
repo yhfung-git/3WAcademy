@@ -1,13 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
 body {
   margin: 0;
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/pokemon-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 100%;
   margin-top: 80px;
+  font-family: 'Limelight', cursive;
 }
 
+a {
+  text-decoration: none;
+}
+
+/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -24,5 +32,74 @@ body {
 }
 
 .navbar h1 {
-  letter-spacing: 4px;
+  letter-spacing: 3px;
+  color: #FFF500;
+  display: inline-block;
+  -webkit-text-stroke: 3px #000AFF;
+}
+
+/* Cards */
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 25px;
+  padding: 25px 0;
+}
+
+.card-category {
+  border-radius: 30px;
+  height: 200px;
+  width: 280px;
+  background-color: rgba(217, 217, 217, .9);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card-category .card-image {
+  background-color: rgba(22, 21, 21, .1);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.card-category .card-description {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card-category button {
+  text-align: center;
+}
+
+.btn-card {
+  color: white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  background-color: #FFC700;
+  opacity: .8;
+  color: #000AFF;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn-card:hover {
+  opacity: 1;
+}
+
+.feu {
+  color: red;
+}
+
+.eau {
+  color: #000AFF;
+}
+
+.electric {
+  color: #FFF500;
+}
+
+.poison {
+  color: purple;
 }
