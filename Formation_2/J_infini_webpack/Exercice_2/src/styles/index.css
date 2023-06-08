@@ -66,11 +66,23 @@ a {
 
 .card-category .card-description {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 18px;
 }
 
-.card-category button {
+.card-category a {
   text-align: center;
+}
+
+.card-description i {
+  font-size: 40px;
+}
+
+.card-description h2 {
+  margin: 5px auto 18px auto;
+}
+
+.card-description h3 {
+  margin: 15px auto 15px auto;
 }
 
 .btn-card {
@@ -101,4 +113,18 @@ a {
 
 .poison {
   color: purple;
+}
+
+/* Media Queries */
+@media (min-width: 650px) {
+  .cards {
+    grid-template-columns: repeat(auto-fill, minmax(450px, 2fr));
+    grid-gap: 50px;
+    padding: 50px 100px;
+  }
+
+  .card-category {
+    height: 250px;
+    width: 450px;
+  }
 }
