@@ -179,6 +179,16 @@ a {
     font-weight: bold;
   }
 
+  .card-category .card-image {
+    height: 150px;
+    width: 150px;
+  }
+
+  .card-image img {
+    max-height: 150px;
+    max-width: 150px;
+  }
+
   .card-description {
     display: flex;
     flex-direction: column;

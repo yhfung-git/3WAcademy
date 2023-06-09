@@ -113,7 +113,7 @@ a {
   min-width: 250px;
   text-align: center;
   border-radius: 8px;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
 }
 
 .card-description h1 {
@@ -143,6 +143,10 @@ a {
     width: 100%;
   }
 
+  .card-description {
+    letter-spacing: 10px;
+  }
+
   .card-description h1 {
     font-size: 70px;
   }
@@ -150,11 +154,15 @@ a {
   .card-description h2 {
     font-size: 40px;
   }
+
+  .card-description i {
+    font-size: 60px;
+  }
 }
 
 @media (max-width: 620px) {
   .btn {
-    margin: auto 20px;
+    margin: 0 10px 30px 10px;
   }
 
   .navbar img {
