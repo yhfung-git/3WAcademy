@@ -40,7 +40,7 @@ fetch("http://localhost:4000/pokemons")
       const button = document.createElement("a");
       button.classList.add("btn-card");
       button.textContent = "Voir relations";
-      button.href = item.relations;
+      button.href = "relation.html";
 
       cardDescription.appendChild(title);
       cardDescription.appendChild(icon);
