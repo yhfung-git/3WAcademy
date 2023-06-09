@@ -79,6 +79,38 @@
       "image": "../src/images/magnéton-électrik.png",
       "icon": "bolt",
       "relations": [45, 46, 47, 48, 49]
+    },
+    {
+      "id": 11,
+      "name": "Akwakwak",
+      "type": "water",
+      "image": "../src/images/akwakwak-eau.png",
+      "icon": "droplet",
+      "relations": [1, 3, 47, 22, 35]
+    },
+    {
+      "id": 12,
+      "name": "Flotajou",
+      "type": "water",
+      "image": "../src/images/flotajou-eau.png",
+      "icon": "droplet",
+      "relations": [35, 23, 50, 9, 44]
+    },
+    {
+      "id": 13,
+      "name": "Smogo",
+      "type": "poison",
+      "image": "../src/images/smogo-poison.png",
+      "icon": "skull-crossbones",
+      "relations": [33, 39, 21, 16, 10]
+    },
+    {
+      "id": 14,
+      "name": "Voltorbe",
+      "type": "electric",
+      "image": "../src/images/voltorbe-électrik.png",
+      "icon": "bolt",
+      "relations": [11, 31, 29, 13, 19]
     }
   ]
 }
