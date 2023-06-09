@@ -49,8 +49,8 @@ a {
 }
 
 .navbar img {
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 70px;
+  max-height: 70px;
 }
 
 .navbar h1 {
@@ -65,6 +65,8 @@ a {
 .buttons {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  gap: 30px;
 }
 
 .btn {
@@ -74,11 +76,11 @@ a {
   color: #000aff;
   transition: 0.3s ease;
   display: inline-block;
-  margin-bottom: 25px;
   font-size: 20px;
   flex-grow: 1;
-  max-width: 200px;
+  max-width: 300px;
   text-align: center;
+  margin: auto 20px;
 }
 
 .btn:hover {
@@ -132,6 +134,10 @@ a {
     font-size: 50px;
   }
 
+  .btn {
+    font-size: 30px;
+  }
+
   .card-image img {
     height: 100%;
     width: 100%;
@@ -149,5 +155,10 @@ a {
 @media (max-width: 620px) {
   .btn {
     margin: auto 20px;
+  }
+
+  .navbar img {
+    max-width: 50px;
+    max-width: 50px;
   }
 }
