@@ -44,11 +44,6 @@ a {
   text-align: center;
 }
 
-.btn-return .btn {
-  padding: 10px 40px;
-}
-
-
 /* Form */
 .form-group {
   display: flex;
@@ -77,12 +72,17 @@ a {
   font-family: "Limelight", cursive;
   border: none;
   padding: 10px 20px;
+  margin-top: 20px;
 }
 
 /* Media Queries */
 @media (min-width: 620px) {
   .btn {
     font-size: 30px;
-    min-width: 200px;
+    padding: 10px 50px;
+  }
+
+  .form-button button {
+    padding: 10px 50px;
   }
 }

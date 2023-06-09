@@ -44,10 +44,6 @@ a {
   text-align: center;
 }
 
-.btn-return .btn {
-  padding: 10px 40px;
-}
-
 .btn-delete {
   text-align: center;
   margin-top: 30px;
@@ -81,11 +77,17 @@ a {
   font-family: "Limelight", cursive;
   border: none;
   padding: 10px 20px;
+  margin-top: 20px;
 }
 
 /* Media Queries */
 @media (min-width: 620px) {
   .btn {
     font-size: 30px;
+    padding: 10px 50px;
+  }
+
+  .form-button button {
+    padding: 10px 50px;
   }
 }
