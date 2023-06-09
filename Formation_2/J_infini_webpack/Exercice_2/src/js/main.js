@@ -1,10 +1,10 @@
-const container = document.querySelector(".container");
+const cards = document.querySelector(".cards");
 
 fetch("http://localhost:4000/pokemons")
   .then((response) => response.json())
   .then((data) => {
-    // Clear container
-    container.innerHTML = "";
+    // Clear cards
+    cards.innerHTML = "";
 
     data.forEach((item) => {
       // Create card container
@@ -49,7 +49,7 @@ fetch("http://localhost:4000/pokemons")
 
       card.appendChild(cardImage);
       card.appendChild(cardDescription);
-      container.appendChild(card);
+      cards.appendChild(card);
     });
   })
   .catch((error) => {
