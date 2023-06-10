@@ -61,6 +61,8 @@ a {
   -webkit-text-stroke: 3px #000aff;
 }
 
+/* Filter */
+
 /* Add Button */
 .add-button {
   display: flex;
