@@ -82,7 +82,11 @@ a {
   font-size: 16px;
 }
 
-select[name="pokemon"] option:checked {
+#pokemon:focus {
+  outline: none;
+}
+
+select[id="pokemon"] option:checked {
   background-color: #000aff;
   color: white;
 }
